@@ -3,7 +3,10 @@ html{
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
 }
-
+p{
+  font-size: large;
+  text-align: center;
+}
 head{
   margin: 0%;
   background-color: rgb(67, 67, 67);
@@ -12,20 +15,21 @@ head{
 nav{ 
   text-align: center;
   background-color: rgb(67, 67, 67);
-  padding: 3%;
   bottom: 5%;
+  user-select: none;
 }
 
 body{
   margin: 0%;
 }
 nav a {
+  position: relative;
   display: inline-block;
-  height: 100%;
   padding-left: 2%;
   padding-right: 2%;
-  bottom: 20%;
+  padding-bottom: 2%;
   color: white;
+  bottom: 10px;
 }
 
 h1{
@@ -34,26 +38,20 @@ h1{
   font-size: x-large;
 }
 
-logo{
-  position: relative;
-  top: 3px; right: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: xx-large;
-  color: white;
-  background-color: red;
-  padding-left: 5px;
-  padding-right: 5px;
+  logo{
+    display: inline-block;
+    position: relative;
+    top: 20px; right: 30px;
 }
 
 a:link { text-decoration: none; color: white; }
-
+p2 a:link { text-decoration: none; color: black; }
 a:hover { color: lightgrey; }
+a:active { color: grey; }
+p2 a:visited{ text-decoration: none; color: black; }
 
-a:active { color: grey; };
 
-logo a:active {color: white;}
 
-logo a:hover {color: white;}
 
 p1{
   display: block;
@@ -75,4 +73,16 @@ img{
     padding-right: 0.6%;
     margin-left: auto;
     margin-right: auto;
+    user-select: none;
+}
+p2{
+  display: block;
+  text-align: center;
+  font-size: smaller;
+  color: black;
+  user-select: none;
+}
+p2 a{
+  position: static;
+
 }
