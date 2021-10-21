@@ -45,10 +45,14 @@ h1{
 }
 
 a:link { text-decoration: none; color: white; }
-p2 a:link { text-decoration: none; color: black; }
 a:hover { color: lightgrey; }
 a:active { color: grey; }
+p2 a:link { text-decoration: none; color: black; }
 p2 a:visited{ text-decoration: none; color: black; }
+p a:link { text-decoration: underline; color: rgb(249, 104, 84); }
+p a:visited { text-decoration: underline; color: rgb(249, 104, 84); }
+p a:hover { text-decoration: underline; color: rgb(194, 95, 75); }
+p a:active { text-decoration: underline; color: rgb(136, 67, 53); }
 
 
 
