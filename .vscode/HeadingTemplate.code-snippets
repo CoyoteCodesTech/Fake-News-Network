@@ -1,0 +1,39 @@
+{
+	// Place your Fake-News-Network workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Heading Template":{
+		"scope": "html",
+		"prefix": "hb",
+		"body": [
+			"<head>",
+    			"\t<link rel=\"icon\" href=\"images/Fnn_logo.png\">",
+				"\t<meta charset=\"utf-8\">",
+				"\t<meta name=\\viewport\" content=\"width=device-width\">",
+				"\t<title>FNN - $1</title>",
+				"\t<link href=\"\\css\\style.css\" rel=\"stylesheet\" type=\"text/css\" />",
+				"\t<nav>",
+					"\t\t<logo><img src=\"\\images\\Fnn_logo.svg\" width=\"70\" height=\"65\" alt=\"\"></logo>",
+					"\t\t<a href=\"\\\">Home</a>",
+					"\t\t<a href=\"\\new\">New!</a>",
+					"\t\t<a href=\"\\articles\">Articles</a>",
+					"\t\t<a href=\"\\about\">About</a>",
+					"\t\t<a href=\"\\donate\">Donate</a>",
+				"\t</nav>",
+			"</head>"
+		]
+	},	
+}
