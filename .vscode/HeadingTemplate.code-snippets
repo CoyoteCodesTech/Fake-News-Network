@@ -27,11 +27,11 @@
 				"\t<link href=\"/css/style.css\" rel=\"stylesheet\" type=\"text/css\" />",
 				"\t<nav>",
 					"\t\t<logo><img src=\"images/Fnn_logo.svg\" width=\"70\" height=\"65\" alt=\"\"></logo>",
-					"\t\t<a href=\"/index.html\">Home</a>",
-					"\t\t<a href=\"/new/index.html\">New!</a>",
-					"\t\t<a href=\"/articles/index.html\">Articles</a>",
-					"\t\t<a href=\"/about/index.html\">About</a>",
-					"\t\t<a href=\"/donate/index.html\">Donate</a>",
+					"\t\t<a href=\"/\">Home</a>",
+					"\t\t<a href=\"/new/\">New!</a>",
+					"\t\t<a href=\"/articles/\">Articles</a>",
+					"\t\t<a href=\"/about/\">About</a>",
+					"\t\t<a href=\"/donate/\">Donate</a>",
 				"\t</nav>",
 			"</head>"
 		]
